@@ -19,3 +19,6 @@ for item in range(20):
     else:
         balance -= .5
 
+    # output
+    print(f"Token: {token}, Balance: ${balance}")
+
