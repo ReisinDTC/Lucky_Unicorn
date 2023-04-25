@@ -32,7 +32,6 @@ def instructions():
     print()
 
 
-
 # number checking function
 def num_check(question, low, high):
     error = "That was not valid input\n" \
