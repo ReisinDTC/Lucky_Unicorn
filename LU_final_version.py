@@ -27,7 +27,7 @@ def yes_no(question_text):
             print("Please answer 'yes' or 'no'")
 
 
-#function to display instructions
+# function to display instructions
 def instructions():
     print()
     print(formatter("*", "How to play"))
@@ -77,7 +77,7 @@ def generate_token(balance):
     rounds_played = 0
     play_again = ""
 
-    #Testing loop to generate 5 tokens
+    # Testing loop to generate 5 tokens
     while play_again != "x":
         rounds_played += 1  # keep track of rounds
         print(formatter(".", f"Round {rounds_played}\n"))
@@ -124,7 +124,7 @@ def generate_token(balance):
                                 "again or 'X' to exit ").lower()
         print()
     return balance
-
+                                                                                                                                        
 
 # function to format text output
 def formatter(symbol, text):
